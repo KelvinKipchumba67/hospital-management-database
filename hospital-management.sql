@@ -90,9 +90,6 @@ CREATE TABLE Prescription_Medications (
     FOREIGN KEY (medication_id) REFERENCES Medications(medication_id)
 );
 
--------------------------------------------------
--- SAMPLE DATA INSERTS
--------------------------------------------------
 
 -- Departments
 INSERT INTO Departments (name) VALUES 
